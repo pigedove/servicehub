@@ -1,3 +1,4 @@
+
 function GetLatestReleaseInfo() {
     $.getJSON("https://api.github.com/repos/mocioun/servicehub/releases/latest").done(function(release) {
       var asset = release.assets[0];
